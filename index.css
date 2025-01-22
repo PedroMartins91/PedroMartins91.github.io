@@ -1,0 +1,250 @@
+#Nome{
+    text-align: center;
+    font-size: large;
+    font-family: Verdana;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(60, 59, 59, 0.742);
+    background-color: lightskyblue;    
+}
+.sobremim{
+    text-align: center;
+    font-size: 16px;
+    color:#333;
+    font-family: sans-serif;
+}
+
+
+
+.foto-perfil {
+    width: 150px;              
+    height: 150px;             
+    border-radius: 50%;       
+    overflow: hidden;         
+    border: 4px solid #fff;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;         
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+}
+
+
+.body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.hobby {
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: lightskyblue; 
+}
+
+
+.Portefolio{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+#redesSociais{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    display: flex;
+    gap: 10px;
+
+}
+
+.descrição_conteudo{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 50%;
+}
+
+/*Hobby CSS*/
+
+.galeria-fotos {
+    width: 100%;
+    padding: 20px;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+
+.carrossel {
+    width: 100%;
+    overflow-x: auto; 
+    white-space: nowrap;
+    scroll-behavior: smooth; 
+}
+
+.carrossel-container {
+    display: inline-flex; 
+    gap: 15px; 
+}
+
+.carrossel-item {
+    flex: 0 0 auto; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.carrossel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*Contacto CSS*/
+  .top{
+    text-align: center;
+    font-size: large;
+    border: #111;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.Portefolio{
+        font-size: 24px;
+        font-weight: bold;
+        color: #666;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    
+}
+
+.menu li a:hover {
+    background-color: whitesmoke;
+}
+
+.endereco {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.contact-button {
+    background-color: #010b15;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #666;
+}
+.mapa{
+    text-align: center;
+    color: black;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+
+
