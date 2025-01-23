@@ -9,7 +9,7 @@
     box-shadow: 0 2px 5px rgba(60, 59, 59, 0.742);
     background-color: lightskyblue;    
 }
-.Portefolio{
+.home{
     font-size: 24px;
     font-weight: bold;
     color: #666;
@@ -262,6 +262,23 @@
     font-size: 16px;
     color: black;
 }
+.voltar-para-cima {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    position: fixed; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    bottom: 20px;
+    z-index: 1000;
+  }
+  
+  .voltar-para-cima:hover {
+    background-color: #3e8e41; 
+  }
 
 
 
