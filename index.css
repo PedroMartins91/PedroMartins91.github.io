@@ -281,7 +281,8 @@
   }
   
   .voltar-para-cima:hover {
-    background-color: #3e8e41; 
+    background-color: white;
+    color: #010b15; 
   }
 
 
