@@ -1,4 +1,4 @@
-# PedroMartins91.github.com
+# PedroMartins91.github.io
 
 Este projeto é uma aplicação web desenvolvida com foco na acessibilidade e usabilidade, respeitando as diretrizes de acessibilidade do nível AA do WCAG (Web Content Accessibility Guidelines). O objetivo é garantir que todos os utilizadores, independentemente das suas limitações ou dispositivos, possam navegar e interagir com o conteúdo de forma eficiente e inclusiva.
 
